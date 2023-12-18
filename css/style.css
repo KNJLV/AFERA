@@ -1,0 +1,161 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+  /* border: 1px violet solid; */
+}
+
+/* ======================== */
+
+body {
+  background-color: #ebebeb;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #2d2d2d;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.blue-text {
+  color: #005da8;
+  font-weight: 700;
+}
+
+/* ======================== */
+
+.nav {
+  background-color: #fff;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .nav__list-el {
+} */
+
+.nav__list-el-link {
+  color: #2d2d2d;
+}
+
+.nav__list-el-link:hover {
+  color: #005da8;
+}
+
+.nav__list-logo {
+  width: 90px;
+}
+
+/* ======================== */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #fff;
+  border-radius: 40px;
+}
+.header__logo {
+  padding: 20px;
+  width: 450px;
+}
+.header__title {
+  margin-left: 50px;
+  font-size: 36px;
+}
+
+/* ======================== */
+
+.section {
+  background-color: #fff;
+  width: 880px;
+  height: 240px;
+  margin: auto;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.section__text {
+  font-size: 32px;
+}
+
+.section__button-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section__button-link {
+  color: #fff;
+  background-color: #005da8;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+.section__button-link:hover {
+  filter: brightness(80%);
+}
+
+/* ======================== */
+
+.footer {
+  margin-top: 225px;
+  padding-bottom: 70px;
+  background-color: #1d1d1d;
+}
+
+.footer__conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer__conteiner-list {
+  margin-top: 100px;
+}
+
+.footer__conteiner-list-el:first-child {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-style: normal;
+  color: #fff;
+}
+
+.footer__conteiner-list-el {
+  font-size: 20px;
+  color: #888888;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 40px;
+}
+.footer__last-text {
+  text-align: center;
+  margin-top: 125px;
+  font-size: 24px;
+  color: #fff;
+}
